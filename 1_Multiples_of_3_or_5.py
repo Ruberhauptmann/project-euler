@@ -15,14 +15,6 @@ def calculate_sum_of_multiples(n: int, multiples: list[int]):
 
     sum_of_multiples = 0
 
-    common_multiples = []
-
-    for j in multiples:
-        common_multiples.append([i * j for i in multiples])
-        common_multiples_test = [i * j for i in multiples if j != i]
-        print(common_multiples_test)
-        print(set(*common_multiples))
-
     for multiple in sorted(multiples):
         # second part is the sum of all natural numbers from 1 up to n
         sum_of_multiples += int(
@@ -33,4 +25,4 @@ def calculate_sum_of_multiples(n: int, multiples: list[int]):
 
 
 if __name__ == "__main__":
-    print(calculate_sum_of_multiples(10, [3, 5, 6]))
+    print(calculate_sum_of_multiples(1000, [3, 5]))

@@ -20,6 +20,5 @@ the same digit, is part of an eight prime value family.
 https://projecteuler.net/problem=51
 """
 
-
 if __name__ == "__main__":
     pass

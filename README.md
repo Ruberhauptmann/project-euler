@@ -1,9 +1,10 @@
 # Project Euler
 
-These are my attempts at solving the [Project Euler](https://projecteuler.net/) problems.
-For now, I use Python (as it is the only language I know by heart), but I might use it to learn other languages as well at some point.
+These are my attempts at solving the first 100 [Project Euler](https://projecteuler.net/) problems.
+Depending on how I am feeling, I solve them using Python, C++ or Fortran.
 
-The scripts all are executable, for example
+The Python scripts all are executable, for example
 ```shell
 ./1_Multiples_of_3_or_5.py
 ```
+The

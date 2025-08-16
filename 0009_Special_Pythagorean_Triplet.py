@@ -15,7 +15,7 @@ https://projecteuler.net/problem=9
 """
 
 
-def pythagorean_triplet(n: int) -> tuple[int, int, int]:
+def pythagorean_triplet(n: int) -> tuple[int, int, int] | None:
     for a in range(1, n - 1):
         for b in range(a + 1, n):
             c = n - a - b
@@ -26,4 +26,5 @@ def pythagorean_triplet(n: int) -> tuple[int, int, int]:
 if __name__ == "__main__":
     triplet = pythagorean_triplet(1000)
     print(f"Pythagorean triplet where a + b + c = 1000: {triplet}")
-    print(f"Product: {triplet[0] * triplet[1] * triplet[2]}")
+    if triplet is not None:
+        print(f"Product: {triplet[0] * triplet[1] * triplet[2]}")

@@ -11,6 +11,7 @@
 #include <iostream>
 #include <list>
 #include <set>
+#include <math.h>
 
 int calculate_sum_of_multiples(const int n, const std::set<int>& multiples) {
     int sum_of_multiples = 0;
@@ -25,6 +26,6 @@ int calculate_sum_of_multiples(const int n, const std::set<int>& multiples) {
 
 int main() {
     const std::set<int> multiples = {3, 5};
-    std::cout << "Sum of multiples: " << calculate_sum_of_multiples(10, multiples);
+    std::cout << "Sum of multiples: " << calculate_sum_of_multiples(1000, multiples);
     return 0;
 }

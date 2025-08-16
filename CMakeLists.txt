@@ -7,7 +7,7 @@ enable_language(Fortran)
 
 add_executable(0001_Multiples_of_3_or_5_fortran 0001_Multiples_of_3_or_5.f90)
 
-#add_executable(0001_Multiples_of_3_or_5_cpp 0001_Multiples_of_3_or_5.cpp)
+add_executable(0001_Multiples_of_3_or_5_cpp 0001_Multiples_of_3_or_5.cpp)
 
 add_executable(0002_Even_Fibonacci_Numbers_cpp 0002_Even_Fibonacci_Numbers.cpp)
 
